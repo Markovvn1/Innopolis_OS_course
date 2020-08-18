@@ -1,0 +1,96 @@
+ 1941  subl dataset.py 
+ 1942  subl indexableDataset.py 
+ 1943  python
+ 1944  htop
+ 1945  pkill java
+ 1946  htop
+ 1947  kill 17550
+ 1948  htop
+ 1949  pkill -9 java
+ 1950  htop
+ 1951  pkill eog
+ 1952  htop
+ 1953  mc
+ 1954  ssh home
+ 1955  sudo init 0
+ 1956  `
+ 1957  chmod -x Theoretical\ part.pdf 
+ 1958  mv AI\ in\ medicine\ 1.docx RRE 
+ 1959  rm -rf *
+ 1960  mc
+ 1961  ssh vova.tom.ru
+ 1962  ssh home
+ 1963  ssh vova.tom.ru
+ 1964  ssh home
+ 1965  ifconfig
+ 1966  ping ya.ru
+ 1967  ifconfig
+ 1968  exit
+ 1969  ssh home
+ 1970  mc
+ 1971  ssh home
+ 1972  mc
+ 1973  ssh home
+ 1974  ping ya.ru
+ 1975  mc
+ 1976  ssh home
+ 1977  mc
+ 1978  ssh home
+ 1979  sudo init 0
+ 1980  sudo dpkg -i zoom_amd64.deb 
+ 1981  subl detectron.txt 
+ 1982  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+ 1983  subl deform_conv.py 
+ 1984  subl my_resnet.py 
+ 1985  subl blocks.py 
+ 1986  subl wrappers.py 
+ 1987  python resnet.py 
+ 1988  subl res.py 
+ 1989  python resnet.py 
+ 1990  subl freeze_module.py 
+ 1991  subl 
+ 1992  subl batch_norm.py 
+ 1993  python resnet.py 
+ 1994  python
+ 1995  python resnet.py 
+ 1996  python res.py 
+ 1997  python resnet.py 
+ 1998  subl conv_wrapper.py
+ 1999  subl freeze_batchnorm.py 
+ 2000  ffplay /dev/video2
+ 2001  python
+ 2002  whoami
+ 2003  hostname
+ 2004  man whoami
+ 2005  man man
+ 2006  less
+ 2007  less --help
+ 2008  more detectron.txt 
+ 2009  more +20 detectron.txt 
+ 2010  more +/RES detectron.txt 
+ 2011  less detectron.txt 
+ 2012  tail detectron.txt 
+ 2013  tail -f detectron.txt 
+ 2014  man tail
+ 2015  stdbuf 
+ 2016  head -n 3 < detectron.txt 
+ 2017  head -n 3 detectron.txt 
+ 2018  ls
+ 2019  ls | sort -r
+ 2020  sort -r < detectron.txt 
+ 2021  pwd
+ 2022  man rm
+ 2023  jobs
+ 2024  sleep 5
+ 2025  sleep 5&
+ 2026  jobs
+ 2027  sleep 5&
+ 2028  fg 2
+ 2029  sleep 5&
+ 2030  fg 1
+ 2031  ls /usr/bin
+ 2032  ls /usr/bin | grep gcc
+ 2033  ls /usr/bin | grep gcc | sort -r
+ 2034  ls /usr/bin | grep gcc | sort -r > ex1.txt
+ 2035  chmod +x ex1.sh 
+ 2036  history 94 > ex2.txt
