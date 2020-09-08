@@ -30,6 +30,7 @@ int main()
 	{
 		int res = read_command(&line, &len);
 		if (res != 0) break;
+		if (!strcmp(line, "exit")) break;
 
 		if (!fork())
 		{
