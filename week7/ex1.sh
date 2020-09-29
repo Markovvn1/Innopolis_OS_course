@@ -1,0 +1,1 @@
+size ../week6/ex3 > ex1.txt
