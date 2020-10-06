@@ -1,0 +1,8 @@
+Let's solve it step-by-step:
+1. "A machine has 16-bit virtual addresses" - it means that machine can have no more than 2^16 = 64 KiB virtual space.
+2. "Pages are 8 KB" - it means that each page is 8 KiB (not KB - probably it is mistake of author)
+3. We need to fit pages into virtual memory. How much pages we can have, if one page is 8 KiB and we have 64 KiB? 64/8 = 8 pages
+
+Let's check that the answer is correct:
+1. If we have 8 pages and each page is 8 KiB, then we need 8*8 = 64 KiB to store all pages.
+2. If our memory 64 KiB we need log2(64 * 1024) = 16 bit address space to make sure that we can address all pages

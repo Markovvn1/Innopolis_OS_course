@@ -1,0 +1,3 @@
+What is the difference between a physical and a virtual address?
+
+Physical address are directly connected to the physical memory (one to one correspondence). Physical addresses cannot be changed. For example, if I put something to address 3 (assume it is possible), then . Physical address are not safety to use, because ...
