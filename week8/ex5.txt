@@ -1,3 +1,5 @@
-What is the difference between a physical and a virtual address?
+Physical address are directly connected to the physical memory (one to one correspondence).
 
-Physical address are directly connected to the physical memory (one to one correspondence). Physical addresses cannot be changed. For example, if I put something to address 3 (assume it is possible), then . Physical address are not safety to use, because ...
+Nowadays programs cannot access to physical address directly, because it is not safe (one program should not modify memory of another program). Virtual addresses help to prevent it by creating an abstraction which allow program to not think about others programs and their memory. There will be no programs, which will modify memory of your program.
+
+Virtual addresses are not directly connected to physical ones. It allow OS to easily shift virtual pages in physical memory or even unload (swap) from memory.
