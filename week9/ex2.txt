@@ -1,0 +1,2 @@
+Sequence 1 1 1 1 1 1 .... 1 1 1 1 (1000 times) will result in increased Hit/Miss ratio
+Sequence 1 2 3 4 ... 999 1000 will result in decreased Hit/Miss ratio
