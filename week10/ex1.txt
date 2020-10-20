@@ -1,0 +1,6 @@
+output of command "ls -il":
+итого 0
+930239 -rw-r--r-- 3 vova vova 0 окт 20 12:52 _ex1_1.txt
+930239 -rw-r--r-- 3 vova vova 0 окт 20 12:52 _ex1_2.txt
+930239 -rw-r--r-- 3 vova vova 0 окт 20 12:52 _ex1.txt
+930242 -rw-r--r-- 1 vova vova 0 окт 20 12:53 ex1.txt

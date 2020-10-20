@@ -1,0 +1,15 @@
+after step 1:
+-rw-r--r-- 1 vova vova 0 окт 20 13:04 _ex3.txt
+after step 2:
+-rw-r--r-- 1 vova vova 0 окт 20 13:04 _ex3.txt
+after step 3:
+-rwx---rwx 1 vova vova 0 окт 20 13:04 _ex3.txt
+after step 4:
+-rwxrwxrwx 1 vova vova 0 окт 20 13:04 _ex3.txt
+
+for 660 (only user and group can read/write):
+-rw-rw---- 1 vova vova 0 окт 20 13:04 _ex3.txt
+for 775 (only user and group can modify file, everybody can read and execute it):
+-rwxrwxr-x 1 vova vova 0 окт 20 13:04 _ex3.txt
+for 777 (everybody can run/read/execute file):
+-rwxrwxrwx 1 vova vova 0 окт 20 13:04 _ex3.txt

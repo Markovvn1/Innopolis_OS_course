@@ -1,0 +1,3 @@
+result of command "find . -inum 930250":
+./week01/file.txt
+./_ex2.txt
