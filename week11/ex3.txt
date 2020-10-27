@@ -1,0 +1,6 @@
+Output of 1-st program: "Hello\nHello\n"
+Output of 2-ed program: "Hello\n\n"
+
+Outputs are differents because of the buffering:
+When the first program call fork(), it's output buffer contains "Hello". fork() create exact copy of process. So, child's buffer will also contain "Hello". After that both process add to buffer character '\n', output the buffer and clean it.
+When the second program call fork(), it's output buffer is empty (because it was cleaned by printf command in line before). So, child's buffer is also empty. After that both process add character '\n' to buffer and output it.
