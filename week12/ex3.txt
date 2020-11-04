@@ -1,0 +1,23 @@
+Real time for different buffer size and different file size (in bytes):
+file size      buffer=10       buffer=102     buffer=1024    buffer=10240    buffer=102400
+  10^2			0,002s			0,002s			0,002s			0,002s			0,002s
+  10^3			0,002s			0,002s			0,002s			0,002s			0,002s
+  10^4			0,009s			0,002s			0,002s			0,002s			0,002s
+  10^5			0,058s			0,006s			0,002s			0,002s			0,002s
+  10^6			0,640s			0,055s			0,010s			0,005s			0,004s
+  10^7			4,967s			0,534s			0,198s			0,030s			0,029s
+  10^8			53,554s			5,331s			2,918s			0,297s			0,260s
+
+with O_SYNC:
+  10^2			0,454s			0,108s			0,258s			0,670s			0,002s
+  10^3			6,247s			0,589s			0,045s			0,058s			0,002s
+  10^4			42,777s			4,088s			0,448s			0,056s			0,002s
+  10^5			-				41,943s			3,950s			0,628s			0,002s
+  10^6			-				-				36,958s			6,537s			0,004s
+  10^7			-				-				-				60,667s			0,029s
+  10^8			-				-				-				-				0,260s
+
+
+bigger buffer -> less time needed to copy
+bigger file -> more time needed to coppy
+If synchronization is enable then, call of function write will not return until all data will be written to disk. So, synchronous writing is significantly slower than asynchronous one.
