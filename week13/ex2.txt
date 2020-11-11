@@ -1,0 +1,18 @@
+Actually, there is 4 strategies are used for dealing with deadlocks:
+
+- Ignore the problem (do nothing)
+	This is the best strategy than deadlock cannot occur. For example, if it is OS for embedded systems where only one process can runing. If program is correct then deadlock is not possible.
+	Also, it is the best strategy in computers there all resources can be used by many processes simultaneously.
+
+- Recovery
+	This is the best strategy if you have very powerful computer and performance (and efficient) is not so important, but it is important than computer are stable. In theory, this strategy allow computer to solve any kind of deadlock. But on practise it is inefficient strategy.
+
+- Avoidance
+	Avoiding problems before you face them. Sounds good, but I do not know any situation where we can apply this technique. If you want what your OS works fast, when you will give resources to programs as fast as possible. And of course you will not wait till many programs will need resources. So that you can analyze their requests and choose best way to solve problem. And also, what if after you give resources for some program, instead of release all its resources it ask one more resource?
+
+- Prevention
+	This is the best method in all cases than it is possible to apply this method. To apply this method you need to break at least one of following characteristics of deadlock
+	1. Hold and Wait
+	2. Mutual Exclusion	
+	3. No preemption
+	4. Circular wait
